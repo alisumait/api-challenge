@@ -1,13 +1,13 @@
 version: '3'
 services:
   comments:
-    #image: comments-api-docker build image to use in production
+    #image: comments-docker-image build image to use in production
     build: './comments'
     ports:
       - "3000:3000"
 
   members:
-    #image: members-api-docker build image to use in production
+    #image: members-docker-image build image to use in production
     build: './members'
     ports:
       - "3001:3000"
