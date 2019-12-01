@@ -10,6 +10,7 @@ Both API microservices were dockerized to Docker Hub and deployed on AWS. Link  
 
 * [Getting Started](#getting-started)	
 * [API Endpoints](#api-endpoints)	
+* [Running Tests](#running-tests)	
 
 
 ## Getting Started
@@ -24,7 +25,7 @@ git clone https://github.com/alisumait/xendit-challenge.git
 ```
 npm install
 ```
-3. In the root folder, run ```docker-compose up --build``` to run both containers locally.
+3. In the root folder, run ```docker-compose up --build``` to build run both container images locally.
 
 4. API can be accessed from port 3000 for comments and 3001 for members respectively.
 
@@ -49,7 +50,7 @@ Operations for this endpoints are:
 
 1. ```DELETE``` to soft-delete all comments under an organization.
 
----
+## 
 
 ```
 /orgs/<org-name>/members
@@ -62,6 +63,7 @@ Operations for this endpoints are:
 
 ## Running tests
 
-Mocha & Chai were used for unit and integration tests. ```mongodb-memory-server``` package was used to spin up new DBs locally for testing.
+Mocha & Chai were used for unit and integration tests.
+```mongodb-memory-server``` npm package was used to spin up new DBs locally for testing.
 
 To run the tests, cd to ./comments and ./members and run ```npm run test```.
