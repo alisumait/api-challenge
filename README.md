@@ -1,12 +1,8 @@
 # Docs 
 
-## [Xendit Challenge](#) 
+## [API Challenge](#) 
 
 RESTful API for storing comments and retrieving members against an existing Github organization.
-
-Both API microservices were dockerized to Docker Hub and deployed on AWS ECS. [Members](http://3.81.79.109:3000/orgs/xendit/members "Xendit Github Members") | [Comments](http://54.175.162.130:3000/orgs/xendit/comments "Comments API")
-
-Note: Comments API deployment isn't stable. Works fine in local.
 
 ## Index
 
