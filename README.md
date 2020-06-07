@@ -17,7 +17,7 @@ RESTful API for storing comments and retrieving members against an existing Gith
 
 1. Clone the repo
 ```
-git clone https://github.com/alisumait/xendit-challenge.git
+git clone https://github.com/alisumait/api-challenge.git
 ```
 2. Install NPM packages in /members and /comments for running unit tests
 ```
